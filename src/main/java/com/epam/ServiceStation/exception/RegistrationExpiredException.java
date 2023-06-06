@@ -1,4 +1,4 @@
-package com.epam.ServiceStation.service;
+package com.epam.ServiceStation.exception;
 
 public class RegistrationExpiredException extends RuntimeException {
     public RegistrationExpiredException(String regNo) {
